@@ -3,12 +3,12 @@
 <suite name="Suite" parallel="false">
     <test name="Test1">
         <classes>
-            <class name="com.yaochen.tester.day01.RecaseV6"/>
+            <class name="com.yaochen.tester.cases.RecaseV6"/>
         </classes>
     </test>
     <test name="Test2">
         <classes>
-            <class name="com.yaochen.tester.day01.Login"/>
+            <class name="com.yaochen.tester.cases.Login"/>
         </classes>
     </test>
 

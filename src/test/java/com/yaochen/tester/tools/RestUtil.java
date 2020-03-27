@@ -1,5 +1,7 @@
 package com.yaochen.tester.tools;
 
+import com.yaochen.tester.pojo.Rest;
+
 import java.util.ArrayList;
 import java.util.List;
 

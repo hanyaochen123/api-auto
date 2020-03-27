@@ -1,5 +1,7 @@
 package com.yaochen.tester.tools;
 
+import com.yaochen.tester.pojo.Case;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
