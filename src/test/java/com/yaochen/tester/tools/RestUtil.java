@@ -8,8 +8,10 @@ import java.util.List;
 public class RestUtil {
     public static List<Rest> rests=new ArrayList<Rest>();
     static{
-        ExcelUtil.load("src/main/resources/casesV1.xlsx","接口信息",Rest.class);
+        List<Rest> list=ExcelUtil.load("src/main/resources/casesV1.xlsx","接口信息",Rest.class);
+        rests.addAll(list);
             }
+
     public static String getUrlByApiId(String apiId){
         for (Rest rest:rests){
             if (rest.getApiId().equals(apiId)){

@@ -18,6 +18,7 @@ public class DBQueryResult {
 
     public Map<String, Object> getColumenLabelAndValues() {
         return columenLabelAndValues;
+
     }
 
     public void setColumenLabelAndValues(Map<String, Object> columenLabelAndValues) {

@@ -3,6 +3,7 @@ package com.yaochen.tester.tools;
 
 import com.yaochen.tester.pojo.Case;
 import com.yaochen.tester.pojo.Rest;
+import com.yaochen.tester.pojo.Variable;
 import com.yaochen.tester.pojo.WriteBackData;
 import org.apache.poi.ss.usermodel.*;
 
@@ -85,41 +86,9 @@ public class ExcelUtil {
         }
 
     }
-    //返回的是一个二维数组 需要传入的值有文件路径，开始行号，结束行号，开始列号，结束列号
-    public static Object[][] datas(String excelpath,String sheetname,int [] rows,int [] calls) {
-        Object[][] datas = null;
-        try {
-            //打开一个workbook工作区间
-            Workbook workbook = WorkbookFactory.create(new File(excelpath));
-            //拿到你要执行的表单
-            Sheet sheet = workbook.getSheet(sheetname);
-            //获取到二位数组有几行 几列
-            datas = new Object[rows.length][calls.length];
-            //从开始行号开始循环，结束行号结束循环
-            for (int i = 0; i <=rows.length-1; i++) {
-                //循环获取每一行
-                Row row = sheet.getRow(rows[i]-1);
-                //从开始列数开始循环，到结束列号结束
-                for (int j = 0; j <= calls.length-1; j++) {
-                    //循环获取每一列
-                    Cell call = row.getCell(calls[j]-1);
-                    //把每一列的数据改成字符串类型
-                    call.setCellType(CellType.STRING);
-                    //拿到列的值
-                    String value = call.getStringCellValue();
-                    //从第0个数组开始添加
-                    datas[i][j] = value;
-                }
-            }
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return datas;
-    }
-
-    public static <T>void load(String excelPath, String sheetName, Class<T> clazz) {
+    public static <T>List<T> load(String excelPath, String sheetName, Class<T> clazz) {
+        List<T> list=new ArrayList<T>();
         try {
 
             Workbook workbook= WorkbookFactory.create(new File(excelPath));
@@ -142,7 +111,7 @@ public class ExcelUtil {
             }
             int lastRowIndex=sheet.getLastRowNum();
             for (int i = 1; i <=lastRowIndex; i++) {
-                Object obj= clazz.newInstance();
+                T obj= clazz.newInstance();
                 Row dataRow=sheet.getRow(i);
                 for (int j=0;j<lastcallnum;j++){
                     if (dataRow==null||isEmptyRow(dataRow)){
@@ -155,19 +124,12 @@ public class ExcelUtil {
                     Method method=clazz.getMethod(methodName,String.class);
                     method.invoke(obj,value);
                 }
-                if (obj instanceof Case){
-                    Case cs= (Case) obj;
-                    CaseUtil.cases.add(cs);
-                }else if (obj instanceof Rest){
-                    Rest rest=(Rest) obj;
-                    RestUtil.rests.add(rest);
-                }
-
+                list.add(obj);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        return list;
     }
     private static boolean isEmptyRow(Row dataRow){
         int lastCellNum=dataRow.getLastCellNum();

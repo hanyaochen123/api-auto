@@ -10,7 +10,8 @@ public class CaseUtil {
     public static List<Case> cases = new ArrayList<Case>();
 
     static{
-        ExcelUtil.load("src/main/resources/casesV1.xlsx","login",Case.class);
+        List<Case> list=ExcelUtil.load("src/main/resources/casesV1.xlsx","login",Case.class);
+        cases.addAll(list);
     }
 
     public static Object[][] getCaseApiId(String apiId, String[] cellNames) {
