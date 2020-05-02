@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
-    <test name="注册">
+<!--    <test name="注册">-->
+<!--        <classes>-->
+<!--            <class name="com.yaochen.tester.cases.RecaseV6"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="登录">-->
+<!--        <classes>-->
+<!--            <class name="com.yaochen.tester.cases.Login"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="充值">-->
+<!--        <classes>-->
+<!--            <class name="com.yaochen.tester.cases.LoginW"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="提现">-->
+<!--        <classes>-->
+<!--            <class name="com.yaochen.tester.cases.Test4"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="wwz登录">
         <classes>
-            <class name="com.yaochen.tester.cases.RecaseV6"/>
+            <class name="com.yaochen.tester.cases.WzzLogin"/>
         </classes>
     </test>
-    <test name="登录">
+    <test name="wwz列表">
         <classes>
-            <class name="com.yaochen.tester.cases.Login"/>
-        </classes>
-    </test>
-    <test name="Test3">
-        <classes>
-            <class name="com.yaochen.tester.cases.LoginW"/>
-        </classes>
-    </test>
-    <test name="Test4">
-        <classes>
-            <class name="com.yaochen.tester.cases.Test4"/>
+            <class name="com.yaochen.tester.cases.Wzzlist"/>
         </classes>
     </test>
 

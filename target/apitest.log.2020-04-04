@@ -1,0 +1,582 @@
+2020-04-04 21:46:35 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:35 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.VariableUtil.loadVariablesToMap(VariableUtil.java:22) - [ INFO ] -> 变量名:${tophone}变量值:15039262131
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345671111111111"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"12345671111111111"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"1234567"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"1234567"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"150392621311","pwd":"12345671"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"150392621311","pwd":"12345671"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"密码"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"密码"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"账号","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"账号","pwd":"12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"-12345678"}
+2020-04-04 21:46:36 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:36 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"-12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"hanghang"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"hanghang"}
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":0,"msg":"OK","data":{"id":7979297,"leave_amount":1000001.0,"mobile_phone":"15039262131","reg_name":"YSL","reg_time":"2020-03-30 01:12:27.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-04-04 21:51:44","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjc5NzkyOTcsImV4cCI6MTU4NjAwODMwNH0.XFoBvK8Xu736zfApTun1JRIrhlsEzGRf4ZlkEGQHBTgbcyrAcwkB0HSFQ0WEFyKRR1g8DeqFYxYErX0xMOrbgQ"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":0,"msg":"OK","data":{"id":7979297,"leave_amount":1000001.0,"mobile_phone":"15039262131","reg_name":"YSL","reg_time":"2020-03-30 01:12:27.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-04-04 21:51:44","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjc5NzkyOTcsImV4cCI6MTU4NjAwODMwNH0.XFoBvK8Xu736zfApTun1JRIrhlsEzGRf4ZlkEGQHBTgbcyrAcwkB0HSFQ0WEFyKRR1g8DeqFYxYErX0xMOrbgQ"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"","pwd":"12345678"}
+2020-04-04 21:46:37 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:37 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"","pwd":"12345678"}
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":""}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":""}
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"","pwd":""}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"","pwd":""}
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"-12345678"}
+2020-04-04 21:46:40 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:40 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262131","pwd":"-12345678"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:46:41 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:41 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:46:44 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:46:44 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:49:01 method: com.yaochen.tester.tools.VariableUtil.loadVariablesToMap(VariableUtil.java:22) - [ INFO ] -> 变量名:${tophone}变量值:15039262132
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:01 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:01 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"12345678"}
+2020-04-04 21:49:01 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":0,"msg":"OK","data":{"id":8017576,"reg_name":"小柠檬","mobile_phone":"15039262132"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:01 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":0,"msg":"OK","data":{"id":8017576,"reg_name":"小柠檬","mobile_phone":"15039262132"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:01 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345671111111111"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"12345671111111111"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"1234567"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"1234567"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"150392621311","pwd":"12345671"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"150392621311","pwd":"12345671"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"密码"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"密码"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"账号","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"账号","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"-12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"-12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[1]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/register
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"12345678"}
+2020-04-04 21:49:02 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:02 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":0,"msg":"OK","data":{"id":8017576,"leave_amount":0.0,"mobile_phone":"15039262132","reg_name":"小柠檬","reg_time":"2020-04-04 21:49:08.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-04-04 21:54:09","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjgwMTc1NzYsImV4cCI6MTU4NjAwODQ0OX0.S6CiVlYrmMwe1k3QIJAp829b_TtNvqX--_NY5noC0JljrMpCLmNH0K2Ma6y9RDdxLB6wt_MUw-GQ2Zfr0GBeNw"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":0,"msg":"OK","data":{"id":8017576,"leave_amount":0.0,"mobile_phone":"15039262132","reg_name":"小柠檬","reg_time":"2020-04-04 21:49:08.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-04-04 21:54:09","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjgwMTc1NzYsImV4cCI6MTU4NjAwODQ0OX0.S6CiVlYrmMwe1k3QIJAp829b_TtNvqX--_NY5noC0JljrMpCLmNH0K2Ma6y9RDdxLB6wt_MUw-GQ2Zfr0GBeNw"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"hanghang"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"hanghang"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"1503926213","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":""}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":""}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"","pwd":""}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"","pwd":""}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"${tophone}","pwd":"-12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"15039262132","pwd":"-12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[2]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/login
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"mobile_phone":"-15039262131","pwd":"12345678"}
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}]
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:49:03 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:03 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[3]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"account": "admin","password": "123456"}
+
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/recharge
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"password":"123456","account":"admin"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:19) - [ INFO ] -> 调用接口前的数据库验证:
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:24) - [ INFO ] -> 根据接口编号[4]获取接口请求地址
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:27) - [ INFO ] -> 根据接口编号获取接口提交类型
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:30) - [ INFO ] -> 替换变量{"menuIds":"1","roleId":1}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:34) - [ INFO ] -> 开始调用接口
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:28) - [ INFO ] -> 接口请求地址http://120.78.128.25:8766/futureloan/member/withdraw
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:71) - [ INFO ] -> 数据:{"roleId":1,"menuIds":"1"}
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doPost(Httputil.java:72) - [ INFO ] -> 接口响应报文：code:[200],结果:[{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}]
+2020-04-04 21:49:04 method: com.yaochen.tester.tools.Httputil.doService(Httputil.java:156) - [ INFO ] -> 拿到的请求结果是post
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:37) - [ INFO ] -> 请求结果是{"code":1003,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved","msg":"未授权或token已过期"}
+2020-04-04 21:49:04 method: com.yaochen.tester.cases.BaseProcessor.test1(BaseProcessor.java:41) - [ INFO ] -> 接口调用后的数据验证
